@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap="adapter">打开适配器</button>
+  <button bindtap="start">查找设备</button>
+  <button bindtap="stop">停止查找</button>
+  <button bindtap="connect">连接蓝牙</button>
+  <button bindtap="close">断开连接</button>
+  <button bindtap="services">获取所有服务</button>
+  <button bindtap="characteristic">获取所有特征</button>
+  <button bindtap="read">读取数据</button>
+  <button bindtap="write">发送数据</button>
+</view>
